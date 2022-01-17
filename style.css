@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: coral;
+}
+
+.logo-capture {
+    font-size: 2rem;
+}
+
+.main-nav {
+    display: none;
+}
+
+
+/* Tablet */
+@media (min-width: 667px) and (max-width: 1024px) {
+
+    header {
+        background-color: paleturquoise;
+    }
+
+    .main-nav {
+        display: block;
+    }
+
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    header {
+        background-color: rgba(255, 255, 0, 0.664);
+    }
+
+    .main-nav {
+        display: block;
+    }
+
+}
