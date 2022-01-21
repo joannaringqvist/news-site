@@ -50,14 +50,6 @@ header {
     100% { color: rgb(116, 228, 222); }
 }
 
-/*.logo-img {
-    width: 5rem;
-    height: 5rem;
-    border: 1px solid black;
-    border-radius: 50%;
-    justify-self: center;
-}*/
-
 .main-nav {
     display: none;
 }
